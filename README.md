@@ -67,6 +67,7 @@ Mô hình sử dụng Transfer Learning với MobileNetV2, giúp đạt hiệu q
     (Có thể cập nhật độ chính xác cụ thể sau khi hoàn tất thử nghiệm)
 
 4 Công nghệ sử dụng
+
     Python
     TensorFlow / Keras
     NumPy, Pandas
