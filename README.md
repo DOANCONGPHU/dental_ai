@@ -63,13 +63,14 @@ Mô hình sử dụng Transfer Learning với MobileNetV2, giúp đạt hiệu q
 
 - Chỉ số đánh giá
     Accuracy > 80%
+  
     Confusion Matrix :
   <img width="800" height="600" alt="confusion_matrix_mobilenetv2" src="https://github.com/user-attachments/assets/3ae092c7-7297-4080-92ef-191be91605bc" />
-  <img width="800" height="600" alt="confusion_matrix_resnet" src="https://github.com/user-attachments/assets/1494e9f5-ec59-4af6-a279-cccd9fd641fa" />
+
       
     Biểu đồ loss/accuracy theo epoch:
   <img width="1200" height="500" alt="training_plot_mobilenetv2" src="https://github.com/user-attachments/assets/b70d0ae8-60b9-4f0d-acbd-0d6942174c01" />
-  <img width="1200" height="500" alt="training_plot_resnet" src="https://github.com/user-attachments/assets/99f5f866-8558-4c5a-a5cb-50ef9fa1dc53" />
+
 
 - Nhận xét
     Transfer Learning giúp cải thiện độ chính xác rõ rệt so với huấn luyện từ đầu
