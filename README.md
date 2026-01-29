@@ -5,6 +5,7 @@ Dự án này xây dựng một hệ thống phân loại bệnh răng miệng t
 Mô hình sử dụng Transfer Learning với MobileNetV2, giúp đạt hiệu quả tốt ngay cả khi tập dữ liệu không lớn.
 
 1 Mô tả tập dữ liệu (Dataset)
+
 - Các lớp bệnh
 
 - Tập dữ liệu gồm 6 lớp bệnh răng miệng:
@@ -34,6 +35,7 @@ Mô hình sử dụng Transfer Learning với MobileNetV2, giúp đạt hiệu q
     Điều chỉnh độ sáng
 
 2 Mô hình sử dụng
+
 - Kiến trúc chính
     MobileNetV2 (pre-trained trên ImageNet)
     Đóng vai trò là bộ trích xuất đặc trưng (feature extractor)
@@ -49,12 +51,15 @@ Mô hình sử dụng Transfer Learning với MobileNetV2, giúp đạt hiệu q
     Bộ tối ưu: Adam
 
 3 Tham số huấn luyện (Hyperparameters)
+
     Tham số	Mô tả
     Learning rate	Điều chỉnh nhỏ khi fine-tune
     Batch size	Thử nghiệm để đảm bảo ổn định
     Epoch	Huấn luyện đến khi hội tụ
     Dropout	Giảm hiện tượng overfitting
+    
 4 Kết quả & Đánh giá
+
 - Chỉ số đánh giá
     Accuracy
     Confusion Matrix
@@ -75,6 +80,7 @@ Mô hình sử dụng Transfer Learning với MobileNetV2, giúp đạt hiệu q
     Google Colab
     
 5 Hướng phát triển
+
     Mở rộng và cân bằng tập dữ liệu
     Thử nghiệm các mô hình khác như EfficientNet, ResNet
     Áp dụng các kỹ thuật augmentation nâng cao
